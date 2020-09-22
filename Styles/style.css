@@ -1,0 +1,305 @@
+body {
+margin: 0px auto;
+	width: 100%;
+}
+nav ul li {
+    list-style-type: none;
+	float: left;
+	padding-right: 2em;
+    color: #07689f;
+    font-size: 20px;
+}
+nav ul li a{
+	text-decoration: none;
+}
+
+nav ul {
+	float: right;
+}
+
+nav {
+	display: table;
+	width: 100% ;
+	height: 50px;
+    background-color: #ffc93c; 
+    position: fixed;	
+}
+.logo img{
+	
+	height: 40px;
+	width :55px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 5px; 
+ }
+	
+
+section{
+	background-color: #40a8c4;
+}
+
+.home{
+	background-color:#ff414d ;
+    text-align: center;
+    font-size: 20px;
+    color: #00334e;
+    display: table;
+    height: 100vh;
+    width: 100%;
+}
+.home .inner{
+	display: table-cell;
+	vertical-align: middle;
+}
+.home img{
+   margin-top: 20px;
+   border-radius: 20px;
+   height: auto;
+
+}
+
+.about{
+	background-image: url(https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    display: table;
+    /*display: flex;
+    flex-direction: row;*/   
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+    float:;
+
+}
+
+.about .inner{
+	display: table-cell;
+	/*display: block;*/
+	vertical-align: middle; 
+    color: white;
+     width: 50%;
+     height: 100px;
+     color: #00334e;
+    padding-top: 50px
+
+
+}
+.about .inner h2{
+	font-size: 40px;
+}
+.about .inner p{
+	font-size: 20px;
+    
+}
+
+.Education {
+	background-color: white ;
+    display: table;
+	height: 100vh;
+	width: 100%;
+
+}
+
+* {
+	 box-sizing: border-box;
+}
+
+
+.Education .inner:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.Education .inner .col {
+  background-color: white;
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 500px;
+  text-align: center;
+}
+.Education .inner .col #left{
+	color: #ecf4f3;
+}
+.Education .inner .col #right{
+	background-color: #ecf4f3;
+}
+.Education  h2{
+  
+   text-align: center;
+   font-size: 30px;
+   margin-left: 10px;
+}
+
+.Education .inner img{
+	float: none;
+}
+
+.Skills {
+	display: table;
+	height: 100vh;
+	width: 100%;
+
+}
+
+.Skills .inner{
+	display: table-cell;
+	vertical-align: middle;
+}
+.Skills .inner div{
+	
+	float: right;
+	width: 30%;
+	margin-left: 5px;
+	margin-right: 5px;
+
+}
+.Skills .inner div li{
+
+}
+.Skills .inner h2{
+	font-size: 30px;
+	text-align: center;
+}
+.Skills .inner li{
+	font-size: 20px;
+}
+.Hobbies {
+	background-color: white;
+	display: table;
+	height: 100vh;
+	width: 100%;
+}
+.Hobbies .inner{
+  display: table-cell;
+  vertical-align: middle;
+
+}
+.Hobbies h2{
+text-align: center;
+font-size: 30px;
+}
+.Hobbies img{
+	margin-left: 190px;
+	margin-bottom: 40px;
+    float: left;  
+}
+.Hobbies .innerr {
+	
+	float: right;
+	width: 50%;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 20px;
+}
+
+.Contact {
+	
+	background-color: #e97171;
+	display: table;
+	height: 100vh;
+	width: 100%;
+	
+    
+}
+.Contact .inner{
+	display: table-cell;
+	vertical-align: middle;
+}
+.Contact img{
+	float: left;
+	height: 250px;
+	width: 30%;
+	margin-left: 190px;
+}
+
+
+.Contact .inner h2{
+	font-size: 30px;
+	text-align: center;
+}
+
+
+.Contact .innerr{
+/*display: inline-block;
+list-style-type: none;*/
+    float: left;
+    width: 50%;
+    margin-left: 5px;
+	margin-right: 5px;
+	font-size: 20px;
+}
+
+footer {
+	display: table;
+	width: 100% ;
+	height: 40px;
+    background-color: #ffc93c; 	
+}
+footer p{
+	text-align: center;
+	font-size: 15px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: black;
+  cursor: pointer;
+  padding: 13px;
+  border-radius: 100px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+/*responsive designing*/
+@media (min-width: 320px) and (max-width: 767px){
+
+	.home img{
+		margin-top: 80px;
+	}
+}
+
+.Education .inner img{
+	height: 150px;
+	width: 150px;
+}
+.Hobbies{
+	display: table;
+	height: 100vh;
+	width: 100%;
+}
+.Hobbies .inner {
+	
+	display : table-cell;
+	vertical-align: middle;
+}
+.Hobbies img{
+	margin-left: 0px;
+	padding-left: 20px; 
+}
+.Hobbies .innerr {
+	
+	float: right;
+	width: 100%;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 20px;
+}
+.Contact img{
+	float: none;
+	height: 250px;
+	width: 100%;
+	margin-left: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
