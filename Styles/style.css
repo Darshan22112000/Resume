@@ -262,7 +262,7 @@ footer p{
 }
 
 /*responsive designing*/
-@media (min-width: 320px) and (max-width: 567px){
+@media (min-width: 320px) and (max-width: 767px){
 
 	.home img{
 		margin-top: 80px;
