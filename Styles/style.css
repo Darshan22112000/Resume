@@ -200,19 +200,21 @@ section{
 	float: none;
 }
 
-.Skills {
+.Skills , .cert{
 	background-color: #00ccff;
 	display: table;
 	height: 100vh;
 	width: 100%;
 
 }
-
-.Skills .inner{
+.cert {
+	background-color: transparent;
+}
+.Skills .inner, .cert .inner {
 	display: table-cell;
 	vertical-align: middle;
 }
-.Skills .inner div{
+.Skills .inner div , .cert .inner div{
 	
 	float: right;
 	width: 30%;
@@ -221,37 +223,45 @@ section{
 
 }
 
-.Skills .inner h2{
+.Skills .inner h2 , .cert .inner h2{
 	font-size: 30px;
 	text-align: center;
 }
-.Skills .inner li{
+.Skills .inner li , .cert .inner li{
 	font-size: 20px;
 	font-weight: 10;
 }
-.Hobbies {
+.Hobbies , .Projects , .intern{
 	background-color: white;
 	display: table;
 	height: 100vh;
 	width: 100%;
 }
-.Hobbies .inner{
+.intern{
+	background-color: lightblue;
+}
+.Hobbies .inner , .Projects .inner, .intern .inner{
   display: table-cell;
   vertical-align: middle;
 
 }
-.Hobbies h2{
+.Hobbies h2 , .Projects h2 , .intern h2{
 text-align: center;
 font-size: 30px;
 }
-.Hobbies img{
+.Hobbies img  {
 	margin-left: 190px;
 	margin-bottom: 40px;
     float: left;  
     border-style: solid;
     border-width: 2px;
 }
-.Hobbies .innerr {
+.Projects img , .intern img{
+	margin-left: 50px;
+	border-style: solid;
+    border-width: 2px;
+}
+.Hobbies .innerr , .Projects .innerr , .intern .innerr{
 	
 	float: right;
 	width: 50%;
@@ -259,10 +269,12 @@ font-size: 30px;
 	margin-right: 5px;
 	font-size: 20px;
 }
-
+.Projects .inner .innerr ul li a{
+	text-decoration: none;
+}
 .Contact {
 	
-	background-color: #DC143C;
+	background-color: crimson;
 	display: table;
 	height: 100vh;
 	width: 100%;
@@ -357,24 +369,27 @@ nav span{
 .Skills .inner div{
 	width: 100%;
 }
-.Hobbies{
+.Hobbies , .Projects{
 	display: table;
 	height: 100vh;
 	width: 100%;
 }
-.Hobbies .inner {
+.Hobbies .inner , .Projects .inner{
 	
 	display : table-cell;
 	vertical-align: middle;
 }
-.Hobbies img{
+.Hobbies img , .Projects img{
 	
 	margin-left: 0px;
 	padding-left: 20px;
 	padding-right: 20px;
-	border-style : none;
+	border-style: none; 
 }
-.Hobbies .innerr {
+.Projects img{
+	width: 100%;
+}
+.Hobbies .innerr , .Projects .innerr{
 	
 	float: right;
 	width: 100%;
@@ -382,13 +397,14 @@ nav span{
 	margin-right: 5px;
 	font-size: 20px;
 }
+
 .Contact img{
 	float: left;
 	width: 100%;
 	margin-left: 0px;
 	padding-left: 20px;
 	padding-right: 20px;
-	border-style : none;
+	border-style: none;
 }
 .Contact .innerr{
 	width: 100%;
