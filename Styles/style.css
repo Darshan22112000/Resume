@@ -90,7 +90,7 @@ nav {
   .overlay .closebtn {
   font-size: 40px;
   top: 15px;
-  right: 35px;
+  right: 30px;
   }
 }
 
@@ -190,8 +190,8 @@ section{
 	background-color: #ecf4f3;
 }
 .Education .mid {
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
 	width: 100%;
 	float: none;
 	text-align: center;
