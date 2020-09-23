@@ -58,10 +58,10 @@ nav {
 
 .overlay-content {
   position: relative;
-  top: 5%;
+  top: 10%;
   width: 100%;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .overlay a {
@@ -79,8 +79,8 @@ nav {
 
 .overlay .closebtn {
   position: absolute;
-  top: 20px;
-  right: 45px;
+  top: 15px;
+  right: 40px;
   font-size: 60px;
 }
 
