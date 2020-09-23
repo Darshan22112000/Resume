@@ -374,22 +374,22 @@ nav span{
 	height: 100vh;
 	width: 100%;
 }
-.Hobbies .inner , .Projects .inner{
+.Hobbies .inner , .Projects .inner, .intern .inner{
 	
 	display : table-cell;
 	vertical-align: middle;
 }
-.Hobbies img , .Projects img{
+.Hobbies img , .Projects img , .intern img{
 	
 	margin-left: 0px;
 	padding-left: 20px;
 	padding-right: 20px;
 	border-style: none; 
 }
-.Projects img{
+.Projects img , .intern img{
 	width: 100%;
 }
-.Hobbies .innerr , .Projects .innerr{
+.Hobbies .innerr , .Projects .innerr, .intern .innerr{
 	
 	float: right;
 	width: 100%;
