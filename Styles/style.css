@@ -195,6 +195,7 @@ section{
 	width: 100%;
 	float: none;
 	text-align: center;
+
 }
 .Education .mid img{
 	border-style: solid;
@@ -379,6 +380,7 @@ nav span{
 	width: 100%;
 	padding-left: 50px;
 	padding-right: 50px;
+	border-style: none;
 
 }
 .Education .mid {
